@@ -1,0 +1,39 @@
+/* glo.css */ 
+
+body {
+  background: #1a1a1a;
+  color: white;
+  font-family: monospace;
+  margin: 0px;
+  background: #1a1a1a;
+  background-image: radial-gradient(rgba(127, 59, 200, 0.36), #fff0);
+  padding: 300px;
+  text-align: center;
+}
+
+.button-primary {
+  padding: 15px;
+  color: white;
+  font-family: monospace;  
+  background: black;
+  border: solid 2px rgb(127, 59, 200);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.project-cards{
+  padding: 15px;  
+}
+
+.project-card {
+  display: inline-block;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-family: monospace;  
+  background: #1a1a1a;
+  background-image: radial-gradient(rgba(127, 59, 200, 0.23), #fff0);
+  border: solid 2px rgb(127, 59, 200);
+  border-radius: 2px;
+}

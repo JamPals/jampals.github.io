@@ -2,10 +2,17 @@
   <head>
     <title> JamPals </title>
     <link rel = "stylesheet" href="/css/latest.css">
+    <script>
+      let quotes = ["im too lazy to think of a quote for this", "welcome to my corner of the internet", "welcome to my small website", "the games- i mean projects here are pretty boring", "dylan, dont just use my stylesheets, learn css"]
+
+const elem = document.getElementById("quote")
+
+elem.innerHTML = quotes[Math.floor(Math.random() * quotes.length)]
+    </script>
   </head>
   <body>
       <h1 class = "page-title"> JamPals </h1>
-      <p> Welcome to my small little website!</p>
+      <p id = "quote"> hello! </p>
     <a href = "/explore"><button class = "button-primary"> Explore </button> </a>
   </body>
 </html>

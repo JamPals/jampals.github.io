@@ -1,0 +1,74 @@
+body {
+  margin: 20px;
+  background-color: #1e1e1e;
+  background-image: radial-gradient(
+    farthest-side at 100% 100%,
+    #b77eff,
+    #1e1e1e
+  );
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color: white;
+  font-family: "Inika", Times New Roman, Serif;
+  font-weight: 400;
+  padding: 10%;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.link-padded {
+  margin-right: 15px;
+}
+
+a {
+  color: #b8a4d1;
+  transition: font-size 0.3s;
+}
+
+emphisised-text {
+  transition: font-size 0.3s;
+  background: linear-gradient(45deg, #818181, #dbc9af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+emphisised-text:hover {
+  font-size: 1.23em;
+}
+
+a:hover {
+  font-size: 1.13em;
+}
+
+card {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  max-width: 85px;
+  text-align: center;
+  text-wrap: stable;
+}
+
+card h3 {
+  transition: font-size 0.3s;
+  background: linear-gradient(45deg, #818181, #dbc9af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+card h3:hover {
+  font-size: 1.23em;
+}

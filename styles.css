@@ -14,6 +14,14 @@ body {
   padding: 10%;
 }
 
+.error-page {
+  background-image: radial-gradient(
+    farthest-side at 100% 100%,
+    #ff0000,
+    #130000
+  );
+}
+
 h1,
 h2,
 h3,
@@ -37,6 +45,10 @@ h1 {
 a {
   color: #b8a4d1;
   transition: font-size 0.3s;
+}
+
+.error-page a {
+  color: #ff0000;
 }
 
 emphisised-text {

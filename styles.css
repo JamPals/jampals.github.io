@@ -1,44 +1,17 @@
-html {
-  background-color: #b7d6ff;
-  background-image: linear-gradient(0deg, rgba(255,255,255,1) 27%, rgba(192,239,249,1) 27%, rgba(192,239,249,1) 100%);
+body {
+  margin: 20px;
+  background-color: #1e1e1e;
+  background-image: radial-gradient(
+    farthest-side at 100% 100%,
+    #b77eff,
+    #1e1e1e
+  );
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
+  color: white;
   font-family: "Inika", Times New Roman, Serif;
   font-weight: 400;
-}
-
-
-
-body {
-  margin: 10%;
-  padding: 20px;
-  width: fit-content;
-  background-color: rgb(58, 53, 50);
-  color: rgb(255, 255, 255);
-  border: solid 10px rgb(26, 23, 22);
-  border-radius: 20px;
-}
-
-html::before {
-  background-image: radial-gradient(farthest-side at 100% 0, rgb(247, 255, 136) 0%, rgba(255,255,255,0) 50%);
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-}
-
-body::before {
-  background-color: rgb(58, 53, 50);
-  border: solid 10px rgb(26, 23, 22);
-  border-left: none;
-  border-right: none;
-  content: "";
-  position: absolute;
-  left: 0;
-  width: calc(10% + 10px);
-  height: 40px;
+  padding: 10%;
 }
 
 h1,
@@ -48,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -62,13 +35,15 @@ h1 {
 }
 
 a {
-  color: #a4d1a8;
+  color: #b8a4d1;
   transition: font-size 0.3s;
 }
 
 emphisised-text {
   transition: font-size 0.3s;
-  color: #d1a4a4;
+  background: linear-gradient(45deg, #818181, #dbc9af);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 emphisised-text:hover {
   font-size: 1.23em;

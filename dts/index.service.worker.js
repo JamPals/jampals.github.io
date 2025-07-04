@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1751474926|108104212';
+const CACHE_VERSION = '1751663373|302808038';
 /** @type {string} */
 const CACHE_PREFIX = 'Dodge The Spikes-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

@@ -69,7 +69,7 @@ card {
   padding: 10px;
   background: hwb(0 0% 100% / 0.137);
   display: inline-block;
-  max-width: 85px;
+  width: 150px;
   text-align: center;
   text-wrap: stable;
   backdrop-filter: blur(100px);
